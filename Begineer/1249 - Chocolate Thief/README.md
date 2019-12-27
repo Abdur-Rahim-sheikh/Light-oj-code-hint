@@ -1,5 +1,5 @@
 ## Key Idea
-There can be three type of student
+There can be three types of student
 1) The theif
 2) The student from whom chocolate has been stolen
 3) All the left student with whome nothing happend
