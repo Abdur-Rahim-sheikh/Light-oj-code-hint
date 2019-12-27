@@ -9,7 +9,6 @@ using namespace std;
 
 int main()
 {
-
     int a,b,c,i,j,k,m,n,t=0,test,val[1000],valu[4],measure;
     char name[500][1000];
     cin>>test;
