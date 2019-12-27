@@ -6,4 +6,4 @@ There can be three types of student
 
 So if any one has stolen, only one entry has more volume and only one entry will have less volume and other's chocolate volume will be equal.
 
-<h3>Using map stl writting code will be very easy</h3>
+<h3>Using the map stl you can write this code very easily.</h3>
