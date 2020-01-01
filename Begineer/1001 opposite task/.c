@@ -4,7 +4,7 @@
 #include<string.h>
 int main()
 {
-     int i,j,k,m,n,rem,div,val,previous,test;
+     int i,j,k,m,n,rem,previous,test;
     scanf("%lld",&test);
     while(test--)
     {
