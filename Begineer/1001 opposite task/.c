@@ -5,7 +5,7 @@
 int main()
 {
      int i,j,k,m,n,rem,previous,test;
-    scanf("%lld",&test);
+    scanf("%d",&test);
     while(test--)
     {
         scanf("%d",&n);
