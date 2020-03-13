@@ -1,5 +1,5 @@
 ## Key Idea
-
+<a href="https://github.com/Abdur-Rahim-sheikh/Light-oj-code-hint/blob/master/Begineer/1331%20-%20Agent%20J/pic.jpg"> Diagram</a>
 1) r1,r2,r3 is given and edge of these circle are touched 
 if we think of a triangle through these three centre. 
 then length of three sides are
