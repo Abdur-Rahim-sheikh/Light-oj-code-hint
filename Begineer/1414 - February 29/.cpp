@@ -14,6 +14,7 @@ bool isLeapyear(ll val){
     if(val%400==0 || (val%100!=0 && val%4==0)) return true;
     return false;
 }
+ll lp(ll a){return a/4 - a/100 + a/400;}
 int main()
 {
 
@@ -25,16 +26,10 @@ int main()
     ll year[3],day1,day2;
     cin>>test;
     while(test--){
-
-        ///revealed the bug,, actually
-        /// if day is between 0 to 9 then my
-        /// conversion to integer is false.
         char ch;
         cin>>month[0]>>day1>>ch>>year[0];
         cin>>month[1]>>day2>>ch>>year[1];
-     //   day1=(day[0][0]-'0')*10+day[0][1]-'0';         ///making integer value.
-     //   day2=(day[1][0]-'0')*10+day[1][1]-'0';         ///making integer value.
-     //   cout<<day1<<' '<<day2<<endl;
+     
         ll t=0;
 
         ///same year especial
@@ -64,7 +59,7 @@ int main()
 
         ///corners year done now total sum.
 
-        ll leapyear=(year[1]/400 - year[1]/100 + year[1]/4)-(year[0]/400 - year[0]/100 + year[0]/4);
+        ll leapyear=lp(year[1])-lp(year[0]);
 
         printf("Case %lld: %lld\n",++cnt,leapyear+t);
     }
