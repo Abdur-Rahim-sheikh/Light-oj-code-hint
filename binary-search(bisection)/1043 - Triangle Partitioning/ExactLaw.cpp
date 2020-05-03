@@ -11,11 +11,11 @@ int main()
     cin>>test;
     while(test--){
         scanf("%lf %*lf %*lf %lf",&a,&val);
-        ///val=ade/bdec so ade/abc=ade/(ade+bdce)=1/(1+bdec/ade)=1/(1+1/val)
-        ///now ade/abc=ad/ab
+        ///val=ade/bdec so abc/ade=(ade+bdce)/ade=(1+bdec/ade)=1+1/val
+        ///now sqrt(abc/ade)=ab/ad
         val=sqrt(1+1/val);
-        //printf("Case %d: %0.8lf\n",++t,mid);
-        cout<<a/val<<endl;
+        printf("Case %d: %0.8lf\n",++t,a/val);
+        //cout<<a/val<<endl;
     }
 
     //free();   //if pointer array
