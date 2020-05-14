@@ -1,8 +1,8 @@
 ## Key Idea
 
 Trinagle ABC and ADE are similar triangle (angle-angle-angle) propoerties of similer triangle is
-ratio of every similar arm are equal and also equals to square-root of area ratio.
-Here AB/AD = BC/DE = AC/AE = sqrt(ABC/ADE)
+ratio of every similar arm are equal and also equals to square-root of area ratio.<br>
+** Here AB/AD = BC/DE = AC/AE = sqrt(ABC/ADE)
 
 Given ration was ADE/BDEC we will convert the ration into ADE/ABC
 Now we can solve the problem in two way
