@@ -11,6 +11,6 @@ Now we can solve the problem in two way
   ii) get the ratio and Form ADE triangle then get the ratio of assumed ADE and ABC and compare with given ration.<br>
   iii) if assumed ratio is greater then take the lower part of bisection else viceversa.
   
-2) Law
+2) Law<br>
   i) as AB/AD = sqrt(ABC/ADE)<br>
   ii) so AD=AB/sqrt(ABC/ADE) thats the answer :smile:
