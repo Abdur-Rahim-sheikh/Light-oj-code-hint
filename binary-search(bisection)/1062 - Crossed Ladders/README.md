@@ -1,3 +1,3 @@
 ## Key idea
 1) Assume the ground distance (h) through bisection.<br>
-2) get the area of inner triangle and compare with 0.5*c*h cause they are same inner triangle so should be same area.
+2) Get the area of inner triangle and compare with <b>0.5 * c * h</b> cause they are same inner triangle so should be same area.
