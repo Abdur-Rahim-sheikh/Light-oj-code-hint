@@ -14,57 +14,35 @@
 #define pb push_back
 #define pii pair<int,int>
 using namespace std;
-
+int arr[100005],n;
+int bin_search(int val){
+    int lo=0,hi=n-1,mid;
+    while(lo<=hi){
+        mid=(lo+hi)/2;
+        if(arr[mid]<=val and (mid+1==n or arr[mid+1]>val))break;
+        else if(arr[mid]<=val)lo=mid+1;
+        else hi=mid-1;
+    }
+    if(lo>hi)return 0;
+    else return mid+1;
+}
 int main()
 {
-
-    ll i,j,k,m,n,val,t=0,cnt,test,a,b,lvalue,rvalue;
+    int i,j,k,m,t=0,cnt,test,a,b;
 
     cin>>test;
     while(test--){
-        scanf("%lld %lld",&n,&m);
-        ll arr[n+5];
+        scanf("%d %d",&n,&m);
 
-        printf("Case %lld:\n",++t);
+        printf("Case %d:\n",++t);
         for(i=0;i<n;i++){
-            scanf("%lld",&arr[i]);
-
+            scanf("%d",&arr[i]);//input given in ascending order
         }
 
         for(i=0;i<m;i++){
-            scanf("%lld %lld",&a,&b);
-
-            ll left=0,right=n-1,mid;
-            while(left<=right){
-                mid =(left+right)/2;
-                if(arr[mid]<a && arr[mid+1]>=a)break;
-                else if(arr[mid]<a)left= mid+1;
-                else right = mid-1;
-            }
-            lvalue = mid+1;
-            if(left>right)lvalue = 0;
-
-            if(left>right && mid == right){
-                printf("0\n");
-
-            }
-
-            else{
-                left=0,right=n-1,mid;
-                while(left<=right){
-                    mid =(left+right)/2;
-                    if(arr[mid+1]>b && arr[mid]<=b)break;
-                    else if(arr[mid]<b)left= mid+1;
-                    else right = mid-1;
-                }
-                rvalue =mid+1;
-
-                printf("%lld\n",rvalue-lvalue);
-            }
-
-
+            scanf("%d %d",&a,&b);
+            printf("%d\n",bin_search(b)-bin_search(a-1));
         }
-
     }
     //free();   //if pointer array
     return 0;
