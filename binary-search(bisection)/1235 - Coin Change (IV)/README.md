@@ -1,4 +1,4 @@
-Key Idea
+## Key Idea
 This problem can be solved in two way
 1) In sense of 0-1 knapsack
 2) In sense of subset sum
