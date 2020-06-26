@@ -8,6 +8,6 @@ Let's come into common point of these two segment in the given problem.
   and check the two cut point of these portion then we will certainly know that the portion of farthest cut point portion will not be the ans. So as there are three portion 
   left - middle - right. Each dash is a cut point. Now if first cutpoint is greater then second cut point then we are sure that left portion does not carry the closest distance
   Otherwise right portion. Middle portion is black box. Each time we will eleminate right portion or left portion. And then in the next iteration we will try the same process
-  for the left portion in which the closest distance lies.
+  for the left portion in which the closest distance lies.<br>
   <b> For vivid idea see the code and draw these segment in graph paper. And simulate the code in the graph for an example</b>
  
