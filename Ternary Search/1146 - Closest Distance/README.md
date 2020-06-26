@@ -1,6 +1,6 @@
 ## Key Idea
 
-<b> Ternary search is like binary search but checks ternary statement.</b><br>
+<b> Ternary search is like binary search but checks ternary (3) statement.</b><br>
 Let's come into common point of these two segment in the given problem.
 1) At a fixed time they crossed x% distance of there segment. Which is x% horizontaly of total horizontal distance and x% vertically of total vertical distance.
 2) Let we crossed x% distance from the start point left distance is y = (1-x%) and we also know that our closest distance lies in the left distance.
