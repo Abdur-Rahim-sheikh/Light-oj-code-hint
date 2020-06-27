@@ -1,6 +1,6 @@
 ## Key Idea
 <b>If you don't know about chess or specifically knight move google it</b><br>
-Break through of this problem is we know that always next move of a knight is always a different color.<b>If you got the idea stop reading and give a second try</b><br>
+Break through of this problem is we know that the next move of a knight is always a different color.<b>If you got the idea stop reading and give a second try</b><br>
 
 So for a standard chess board maximum of (8 * 8) / 2 = 32 knight can be placed in the same color cell white or black.<br>
 So the math is simple (m*n)/2 is the solution. But as in the solution the board is customized so the board area can be odd as(7 * 9) If we place color in the board
