@@ -16,7 +16,7 @@ int main(){
         }
 
         else{
-            val=((m*n-1)/2)+1;
+            val=(m*n+1)/2;
             printf("Case %d: %d\n",++i,val);
         }
 
