@@ -10,5 +10,5 @@ Now forget about Bob and Alice imagine I and you are playing and I started the g
 If there is 1 or 2 marble then it's winning state for me cause i will start and take all marble and win. Now if there is a state from where what we do we will go to winnig state only then thats a loosing state. Below for 7 marble i will describe it elaborately.
 <table>
   <tr> <th>Number</th><td> 0</td><td>1 </td><td>2 </td> <td> 3</td><td>4 </td><td>5 </td><td>6 </td><td>7 </td><td>8 </td></tr>
-<tr> <th>State Status</th><td> Loss</td> Win <td>Win </td> <td> Loss</td><td>Win </td><td>Win </td><td>Loss </td><td>7 </td><td>Win </td></tr>
+  <tr> <th>State Status</th><td> Loss</td> <td>Win</td> <td>Win </td> <td> Loss</td><td>Win </td><td>Win </td><td>Loss </td><td>7 </td><td>Win </td></tr>
 </table>
