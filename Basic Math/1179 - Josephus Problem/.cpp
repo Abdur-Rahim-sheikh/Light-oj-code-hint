@@ -7,7 +7,7 @@
 #define pii pair<int,int>
 
 using namespace std;
-int josephus(int n,int k){//this k is the gap
+int josephus(int n,int k){//this k'th person dies
     if(n==1)return 1;
     return (josephus(n-1,k)+k-1)%n + 1;
 }
@@ -22,7 +22,7 @@ int main(){
             printf("Case %d: %d\n",++t,n);
             continue;
         }
-        printf("Case %d: %d\n",++t,josephus(n,k-1));
+        printf("Case %d: %d\n",++t,josephus(n,k));
 
     }
     //free();   //if pointer array
