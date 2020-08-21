@@ -1,3 +1,6 @@
 ## Key Idea
 
-If you analyse the test cases you will get a pattern <h7>happy coding</h7>.
+If you analyse the test cases you will get a pattern <h2>happy coding</h2>.
+## hint
+-1 -2 -3 + 4 + 5 + 6 ..............
+= 3 + 3 + 3 .............
