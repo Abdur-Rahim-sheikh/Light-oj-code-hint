@@ -5,7 +5,7 @@ if 2nd differentiation of the equation is less then zero.
 
 p<sup><b>'</b></sup> = 12x<sup>2</sup> - 4 (w + l) + wl
   
-p**<sup><b>''</b></sup> = 3x - w - l<br>
+p<sup><b>''</b></sup> = 3x - w - l<br>
 if p<sup>''</sup> < 0<br>
 => x < (w + l)/3<br>
 
